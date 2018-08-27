@@ -3,14 +3,14 @@ import java.util.Map;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
-
+//this is test
 class BattleShips {
 
     public static char fireShot(char[][] grid, Position shot) {
         // Implement me!
     	char[][] grid1 = new char[5][5];
     	//if((shot.getX()>5)||(shot.getX()<0)||(shot.getY()>5)||(shot.getY()<0)){
-    		//return 
+    		//return
     	//}
         return 'A';
     }
@@ -18,16 +18,16 @@ class BattleShips {
     public static Map<Character, Integer> findShips(char[][] grid) {
         // Implement me!
     	Hashtable<Character, Integer> res = new Hashtable<Character, Integer>();
-    	
-    	
+
+
         return res;
     }
 
     public static List<Character> fireShots(char[][] grid, List<Position> shots) {
         // Implement me!
     	ArrayList<Character> output = new ArrayList<Character> ();
-    	
-    	
+
+
         return output;
     }
 
